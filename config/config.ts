@@ -1,5 +1,8 @@
-export default {
+import { defineConfig } from 'dumi';
+
+export default defineConfig({
   title: 'Weber',
+  outputPath: 'docs-dist',
   mode: 'site',
   description: '前端掌握未来',
   menus: {
@@ -48,4 +51,4 @@ export default {
       },
     ],
   ],
-}
+})

@@ -14,6 +14,7 @@ features:
     desc: 略懂Vue、React、Typescript，还是个菜。
   - title: For Future
     desc: 想学一门后端语言。
+footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by liujiayii@foxmail.com
 ---
 
 ---
