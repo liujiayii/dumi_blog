@@ -115,28 +115,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@>=7.2.2", "@babel/core@^7.1.0", "@babel/core@^7.4.5", "@babel/core@^7.7.2":
-  version "7.8.6"
-  resolved "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.8.6.tgz#27d7df9258a45c2e686b6f18b6c659e563aa4636"
-  integrity sha1-J9ffklikXC5oa28YtsZZ5WOqRjY=
-  dependencies:
-    "@babel/code-frame" "^7.8.3"
-    "@babel/generator" "^7.8.6"
-    "@babel/helpers" "^7.8.4"
-    "@babel/parser" "^7.8.6"
-    "@babel/template" "^7.8.6"
-    "@babel/traverse" "^7.8.6"
-    "@babel/types" "^7.8.6"
-    convert-source-map "^1.7.0"
-    debug "^4.1.0"
-    gensync "^1.0.0-beta.1"
-    json5 "^2.1.0"
-    lodash "^4.17.13"
-    resolve "^1.3.2"
-    semver "^5.4.1"
-    source-map "^0.5.0"
-
-"@babel/core@^7.7.5":
+"@babel/core@>=7.2.2", "@babel/core@^7.1.0", "@babel/core@^7.4.5", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
   version "7.10.3"
   resolved "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.10.3.tgz#73b0e8ddeec1e3fdd7a2de587a60e17c440ec77e"
   integrity sha1-c7Do3e7B4/3Xot5YemDhfEQOx34=
@@ -584,7 +563,7 @@
     "@babel/traverse" "^7.10.1"
     "@babel/types" "^7.10.1"
 
-"@babel/helpers@^7.4.4", "@babel/helpers@^7.8.4":
+"@babel/helpers@^7.4.4":
   version "7.8.4"
   resolved "https://registry.npm.taobao.org/@babel/helpers/download/@babel/helpers-7.8.4.tgz#754eb3ee727c165e0a240d6c207de7c455f36f73"
   integrity sha1-dU6z7nJ8Fl4KJA1sIH3nxFXzb3M=
@@ -3446,6 +3425,14 @@
     "@babel/traverse" "7.10.0"
     "@umijs/utils" "3.2.5"
 
+"@umijs/babel-plugin-auto-css-modules@3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-auto-css-modules/-/babel-plugin-auto-css-modules-3.2.6.tgz#fbeb267c28ce66b205c3d30431260b2e7ce6f54e"
+  integrity sha512-j3o1wJyJG/jQYn/v9NHqbnvpeh7tkdmFMn0FVqUVD9A8QgNwNyiccr/2B2GIG2KQFPXKMoKfAeifJNMcTNJAMA==
+  dependencies:
+    "@babel/traverse" "7.10.0"
+    "@umijs/utils" "3.2.6"
+
 "@umijs/babel-plugin-import-to-await-require@3.2.5":
   version "3.2.5"
   resolved "https://registry.npm.taobao.org/@umijs/babel-plugin-import-to-await-require/download/@umijs/babel-plugin-import-to-await-require-3.2.5.tgz?cache=0&sync_timestamp=1592895133047&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40umijs%2Fbabel-plugin-import-to-await-require%2Fdownload%2F%40umijs%2Fbabel-plugin-import-to-await-require-3.2.5.tgz#826a3e6329a34189c8c0032f6d1222c3c060e4c6"
@@ -3453,6 +3440,14 @@
   dependencies:
     "@babel/traverse" "7.10.0"
     "@umijs/utils" "3.2.5"
+
+"@umijs/babel-plugin-import-to-await-require@3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-import-to-await-require/-/babel-plugin-import-to-await-require-3.2.6.tgz#202990c19194ee58f7c3438adc2abdfc2ee7bc59"
+  integrity sha512-qTAt1P/OPBcPNwMRyYzx7F7aY8fOBdchN/0qszLzUTWTe35yleZsyA+pIlaombY4CJ/VAuUbjBEvS6K1+xHH3g==
+  dependencies:
+    "@babel/traverse" "7.10.0"
+    "@umijs/utils" "3.2.6"
 
 "@umijs/babel-plugin-lock-core-js-3@3.2.5":
   version "3.2.5"
@@ -3462,7 +3457,15 @@
     "@umijs/utils" "3.2.5"
     core-js "3.6.5"
 
-"@umijs/babel-preset-umi@3.2.5", "@umijs/babel-preset-umi@3.x":
+"@umijs/babel-plugin-lock-core-js-3@3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-lock-core-js-3/-/babel-plugin-lock-core-js-3-3.2.6.tgz#ec315f8c1be252bb29d28e72d7f9eaa87459ca9d"
+  integrity sha512-iUjbjVrKOnB2KeWIAVSCb8TFpXrLva3Oe5bHN4Y7A+YaX+jlWIGuabpcMxNsW7Gd0fYtyo4kGagCBdv8cCs5LA==
+  dependencies:
+    "@umijs/utils" "3.2.6"
+    core-js "3.6.5"
+
+"@umijs/babel-preset-umi@3.2.5":
   version "3.2.5"
   resolved "https://registry.npm.taobao.org/@umijs/babel-preset-umi/download/@umijs/babel-preset-umi-3.2.5.tgz?cache=0&sync_timestamp=1592895132360&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40umijs%2Fbabel-preset-umi%2Fdownload%2F%40umijs%2Fbabel-preset-umi-3.2.5.tgz#d03b2dc20e4454a72f72a30448d03f1a93549a85"
   integrity sha1-0Dstwg5EVKcvcqMESNA/GpNUmoU=
@@ -3485,6 +3488,35 @@
     "@umijs/babel-plugin-auto-css-modules" "3.2.5"
     "@umijs/babel-plugin-import-to-await-require" "3.2.5"
     "@umijs/babel-plugin-lock-core-js-3" "3.2.5"
+    babel-plugin-dynamic-import-node "2.3.0"
+    babel-plugin-import "^1.13.0"
+    babel-plugin-named-asset-import "0.3.6"
+    babel-plugin-react-require "3.1.3"
+    babel-plugin-transform-react-remove-prop-types "0.4.24"
+
+"@umijs/babel-preset-umi@3.2.6", "@umijs/babel-preset-umi@3.x":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-preset-umi/-/babel-preset-umi-3.2.6.tgz#2d3c81f12a8b6dae5df937c8210bf75d9367d307"
+  integrity sha512-QPrW6YFG7J3emi8HRA1KrhAOAIkPSvRoNwByCTn866uBGNwqQcro0/Fw30VMuwx+rgpVBN45SzgexqqV6J9CTg==
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "7.8.3"
+    "@babel/plugin-proposal-decorators" "7.8.3"
+    "@babel/plugin-proposal-do-expressions" "7.8.3"
+    "@babel/plugin-proposal-export-default-from" "7.8.3"
+    "@babel/plugin-proposal-function-bind" "7.8.3"
+    "@babel/plugin-proposal-logical-assignment-operators" "7.8.3"
+    "@babel/plugin-proposal-pipeline-operator" "7.8.3"
+    "@babel/plugin-syntax-top-level-await" "7.8.3"
+    "@babel/plugin-transform-destructuring" "7.9.5"
+    "@babel/plugin-transform-runtime" "7.9.0"
+    "@babel/preset-env" "7.9.5"
+    "@babel/preset-react" "7.9.4"
+    "@babel/preset-typescript" "7.9.0"
+    "@babel/runtime" "7.9.2"
+    "@svgr/webpack" "4.3.3"
+    "@umijs/babel-plugin-auto-css-modules" "3.2.6"
+    "@umijs/babel-plugin-import-to-await-require" "3.2.6"
+    "@umijs/babel-plugin-lock-core-js-3" "3.2.6"
     babel-plugin-dynamic-import-node "2.3.0"
     babel-plugin-import "^1.13.0"
     babel-plugin-named-asset-import "0.3.6"
@@ -3850,14 +3882,14 @@
     sockjs "0.3.20"
     spdy "4.0.2"
 
-"@umijs/test@^3.0.5", "@umijs/test@^3.0.7":
-  version "3.2.5"
-  resolved "https://registry.npm.taobao.org/@umijs/test/download/@umijs/test-3.2.5.tgz?cache=0&sync_timestamp=1592895128488&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40umijs%2Ftest%2Fdownload%2F%40umijs%2Ftest-3.2.5.tgz#a8ce231efec1db7f4452cd06f6de18fe8a17ae1a"
-  integrity sha1-qM4jHv7B239EUs0G9t4Y/ooXrho=
+"@umijs/test@^3.0.7", "@umijs/test@^3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-3.2.6.tgz#d25de453c838a3d9ce8fc75b8d81489d50f29422"
+  integrity sha512-awJBYpPtDW9C+GTwJ8mdXE0ZIdpkrAtKHuPVm3Jz40IIS45SeUQnWkmJ7uSa/eDBzD5Bvc6RWcCYSm+coQ13NQ==
   dependencies:
     "@babel/core" "7.9.0"
-    "@umijs/babel-preset-umi" "3.2.5"
-    "@umijs/utils" "3.2.5"
+    "@umijs/babel-preset-umi" "3.2.6"
+    "@umijs/utils" "3.2.6"
     babel-core "7.0.0-bridge.0"
     babel-jest "^25.4.0"
     core-js "3.6.5"
@@ -3896,6 +3928,55 @@
   version "3.2.5"
   resolved "https://registry.npm.taobao.org/@umijs/utils/download/@umijs/utils-3.2.5.tgz?cache=0&sync_timestamp=1592895127635&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40umijs%2Futils%2Fdownload%2F%40umijs%2Futils-3.2.5.tgz#822ef9c8b861d67f47c669a886c890877fd22b43"
   integrity sha1-gi75yLhh1n9HxmmohsiQh3/SK0M=
+  dependencies:
+    "@babel/parser" "7.9.4"
+    "@babel/register" "7.9.0"
+    "@babel/traverse" "7.9.5"
+    "@babel/types" "7.9.5"
+    "@types/cheerio" "0.22.17"
+    "@types/color" "3.0.1"
+    "@types/cross-spawn" "6.0.1"
+    "@types/debug" "4.1.5"
+    "@types/glob" "7.1.1"
+    "@types/got" "9.6.10"
+    "@types/lodash" "4.14.150"
+    "@types/mkdirp" "1.0.0"
+    "@types/mustache" "4.0.1"
+    "@types/resolve" "1.14.0"
+    "@types/rimraf" "3.0.0"
+    "@types/semver" "7.1.0"
+    "@types/signale" "1.4.1"
+    "@types/yargs" "15.0.4"
+    "@types/yargs-parser" "15.0.0"
+    address "1.1.2"
+    chalk "4.0.0"
+    cheerio "1.0.0-rc.3"
+    chokidar "3.3.1"
+    clipboardy "2.3.0"
+    color "3.1.2"
+    crequire "1.8.1"
+    cross-spawn "7.0.2"
+    debug "4.1.1"
+    deepmerge "4.2.2"
+    execa "4.0.0"
+    glob "7.1.6"
+    got "9.6.0"
+    lodash "4.17.15"
+    mkdirp "1.0.4"
+    mustache "4.0.1"
+    pkg-up "3.1.0"
+    portfinder "1.0.25"
+    resolve "1.16.1"
+    rimraf "3.0.2"
+    semver "7.3.2"
+    signale "1.4.0"
+    yargs "15.3.1"
+    yargs-parser "18.1.3"
+
+"@umijs/utils@3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@umijs/utils/-/utils-3.2.6.tgz#cd4e8cc8c240980b229d24493bcc5b372b2ea512"
+  integrity sha512-gbnx4qTuW5jPx6rPbbYszOrXrxKsJBRbAjRDgtZ8QdaYB5RLuwI08AUFCokHEBlHWogag8DizsYdX2QWJ9Phtg==
   dependencies:
     "@babel/parser" "7.9.4"
     "@babel/register" "7.9.0"
@@ -5916,7 +5997,7 @@ core-js-compat@^3.1.1, core-js-compat@^3.6.2:
     browserslist "^4.8.3"
     semver "7.0.0"
 
-core-js@3.6.5:
+core-js@3.6.5, core-js@^3.0.0:
   version "3.6.5"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha1-c5XcJzrzf7LlDpvT2f6EEoUjHRo=
@@ -5930,11 +6011,6 @@ core-js@^2.4.0:
   version "2.6.11"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.11.tgz?cache=0&sync_timestamp=1578957006406&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
-
-core-js@^3.0.0:
-  version "3.6.4"
-  resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.4.tgz?cache=0&sync_timestamp=1578957006406&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
-  integrity sha1-RAqDU2tFgRS5yyrBWAujd9xHBkc=
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -14112,7 +14188,7 @@ regenerate@^1.2.1, regenerate@^1.4.0:
   resolved "https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerate%2Fdownload%2Fregenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha1-SoVuxLVuQHfFV1icroXnpMiGmhE=
 
-regenerator-runtime@0.13.5, regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.5:
+regenerator-runtime@0.13.5, regenerator-runtime@^0.13.2, regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.5:
   version "0.13.5"
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
   integrity sha1-2Hih0JS0MG0QuQlkhLM+vVXiZpc=
@@ -14121,11 +14197,6 @@ regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz?cache=0&sync_timestamp=1582478371027&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
-
-regenerator-runtime@^0.13.2:
-  version "0.13.3"
-  resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.3.tgz?cache=0&sync_timestamp=1582478371027&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
-  integrity sha1-fPanfY9cb2Drc8X8GVWyzrAea/U=
 
 regenerator-transform@^0.14.0:
   version "0.14.1"
