@@ -3679,17 +3679,17 @@
     react-intl "3.12.0"
     warning "^4.0.3"
 
-"@umijs/plugin-model@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@umijs/plugin-model/-/plugin-model-2.5.0.tgz#3cd4e70402a9b9685edc114b6e1260a51cdf9670"
-  integrity sha512-0LpOxnGiI1wB18YYOnAda5h5joIAS/mLmP4pYo/rZdWNfmGfVjH4jvOZz8EZHzJgIXXil9idFH3rVj9vsyUISA==
+"@umijs/plugin-model@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-model/-/plugin-model-2.5.1.tgz#35f4b18eab1b2d86edbf35e1760f62dab61452c3"
+  integrity sha512-jYdQJeY0yXaGTAAbKhO5wZuuueT3XCuc79WMypnbYl02ftdzB+13jbhe5R6eVWgOLxZi5Q9aPSnO55kqL0wRDw==
   dependencies:
     fast-deep-equal "3.1.1"
 
-"@umijs/plugin-request@2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@umijs/plugin-request/-/plugin-request-2.4.0.tgz#c8c34355d3bebbf04385b2fa1c4cce62449a80de"
-  integrity sha512-PqYAu/Qzx7AfJxD2P+Icwur+nSfSMd0kKaBu0QaORVCFW5n1Sjc3lKsdt7yGqHU3NH8OMO5ZVdcMmRQiDfRh3g==
+"@umijs/plugin-request@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-request/-/plugin-request-2.4.1.tgz#7295749caddd3c52be472eef6623a7b441ed17d6"
+  integrity sha512-mtxBbfW+YnCCpauuYVPKlLsouWyVaZ6ZVzwWJzePknyuLSCSz2ngIFYngd2kttkX2QU/lyYmYDSrrSb9JOuChQ==
   dependencies:
     "@ahooksjs/use-request" "^2.0.0"
     umi-request "^1.2.14"
@@ -3786,9 +3786,9 @@
     unist-util-visit-parents "^3.0.1"
 
 "@umijs/preset-react@1.x":
-  version "1.5.15"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-react/-/preset-react-1.5.15.tgz#420f7b4aa1dd902592433a5ef3b4b45bff1ef8ab"
-  integrity sha512-LsQVeme4KDma8RwsJcMYhPoZ6QwE+R/337DO2Dv4kMwNsFGP6iEbWvcnA5WvycEh3a4Si235BZx9khame+t8PA==
+  version "1.5.16"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-react/-/preset-react-1.5.16.tgz#27e1261b009bf0a14c601ad49238524f778c65f8"
+  integrity sha512-5VffiABdnWxqq2xqQ+naBZGNN2+A8vF07avmaD43t0+M1FhWLxtqN1xfOE6IRvbHmSV4NPFKaL0Oxk4JTi41pg==
   dependencies:
     "@umijs/plugin-access" "2.3.1"
     "@umijs/plugin-analytics" "0.2.2"
@@ -3799,8 +3799,8 @@
     "@umijs/plugin-initial-state" "2.2.1"
     "@umijs/plugin-layout" "0.11.10"
     "@umijs/plugin-locale" "0.9.0"
-    "@umijs/plugin-model" "2.5.0"
-    "@umijs/plugin-request" "2.4.0"
+    "@umijs/plugin-model" "2.5.1"
+    "@umijs/plugin-request" "2.4.1"
     "@umijs/plugin-test" "1.0.0"
 
 "@umijs/renderer-mpa@3.2.5":
